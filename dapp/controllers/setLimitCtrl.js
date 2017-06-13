@@ -20,7 +20,7 @@
             $uibModalInstance.close();
             Utils.notification("Update daily limit transaction was sent.");
             Transaction.add({txHash: tx, callback: function () {
-              Utils.success("Update daily limit transaction was minded.");
+              Utils.success("Update daily limit transaction was mined.");
             }});
           }
         });
